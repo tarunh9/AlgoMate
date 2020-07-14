@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.madproject_1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="AlgoMate"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Prims_sub1"></activity>
+        <activity android:name=".Prims_home" />
+        <activity android:name=".Tree_binary" />
+        <activity android:name=".Tree_home" />
+        <activity android:name=".Tree_sub1" />
+        <activity android:name=".Tree_sub" />
+        <activity android:name=".Tree_main" />
+        <activity android:name=".Lcs" />
+        <activity android:name=".Stack1" />
+        <activity android:name=".Queue" />
+        <activity android:name=".Algo_home" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Test" />
+        <activity android:name=".Home" />
+        <activity android:name=".Selection" />
+        <activity android:name=".Insertion_sort" />
+        <activity android:name=".Bubble" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

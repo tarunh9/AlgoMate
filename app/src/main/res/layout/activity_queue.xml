@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivMiddle"
+        android:layout_width="match_parent"
+        android:layout_height="64sp"
+        android:background="#4F9E59"
+        android:paddingBottom="3dp"
+        android:src="@drawable/logo_head" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textnum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter number"
+            android:textSize="20sp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="50sp"/>
+
+        <EditText
+            android:id="@+id/enternumQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="One element at a time"
+            android:layout_marginLeft="160sp"
+            android:layout_marginTop="40sp"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/enqueueval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENQUEUE"
+            android:layout_marginTop="120sp"
+            android:layout_marginLeft="100sp"
+            android:background="@drawable/custom_button4"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/dequeueval"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DEQUEUE"
+            android:layout_marginTop="120sp"
+            android:layout_marginLeft="210sp"
+            android:background="@drawable/custom_button4"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/queueEntry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:layout_marginTop="200sp"
+            android:layout_marginLeft="10sp"
+            android:layout_toRightOf="@id/name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Queue : "
+            android:textSize="20sp"
+            android:layout_marginTop="200sp"
+            android:layout_alignLeft="@id/textnum"
+            android:id="@+id/name"/>
+
+
+    </RelativeLayout>
+</LinearLayout>

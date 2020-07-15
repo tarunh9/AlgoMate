@@ -20,10 +20,7 @@ It can help students and people who are starting to learn algorithms and data st
 <p>• Visual representation of binary search tree.</p>
 <br>
 <p><b> 2. Algorithms </b></p>
-<p>Sorting</p>
-<p>.             • Visual demonstration of bubble sort</p>
-<p>.             • Visual demonstration of insertion sort</p>
-<p>.             • Visual demonstration of selection sort</p>
+<p>• Sorting - Bubble sort, Insertion sort, Selection sort.</p>
 <p>• Visual demonstation of finding Longest Common Subsequence.</p>
 <p>• Visual representation of working of binary tree.</p>
 <p>• Visual representation of Prims Algorithm.</p>
